@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Grams to Atoms Converter</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li>
+            <a href="{{ url_for('converter.start') }}">Grams to Atoms Converter ⚛</a>
+          </li>
+        </ul>
+    </nav>
+
+    {% for error in errors %}
+    <p class="errors">{{ error }}</p>
+    {% endfor %}
+
+    <div class="title">
+      <p>Convert Grams to Atoms</p>
+    </div>
+
+    <div class="index-box">
+      <form method="post" action=".">
+        <p class="alignLeft">Enter Grams </p>
+        <p class="alignLeft"><input name="grams" /></p>
+        <p class="alignLeft">Enter Molar Mass </p>
+        <p class="alignLeft"><input name="molar_mass" /></p>
+        <p><input type="submit" class="button" value="Convert"/></p>
+    </form>
+  </div>
+</body>
+</html>

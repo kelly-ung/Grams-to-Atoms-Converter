@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li>
+            <a href="{{ url_for('converter.start') }}">Grams to Atoms Converter ⚛</a>
+          </li>
+        </ul>
+    </nav>
+
+    <div class="title">
+      <p>Result</p>
+    </div>
+
+    <div class="results-box">
+      <p> {{ grams }} grams is {{ result }} atoms.</p>
+      <p><a href="/"><button class="button">Back to Calculator</button></a></p>
+    </div>
+
+    <div class="solution-box">
+      <p class="p2"><b>Solution</b>
+        <br></br>Avogadro's number: 
+        <br>6.022 × 10²³
+        <br></br>Molar Mass: 
+        <br>element's atomic mass from Periodic Table
+        <br></br>Formula: 
+        <br>(grams * Avogadro's number) / molar mass
+        <br></br>({{ grams }} grams * 6.022 × 10²³ atoms) / {{ molar_mass }} molar mass = {{ result }} atoms
+      </p>
+    </div>
+</body>
+</html>

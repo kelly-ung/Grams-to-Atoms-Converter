@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(242, 242, 242);
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: black;
+    font-family: arial;
+    text-align: center;
+    font-size: 25px;
+}
+
+.p2 {
+    color: black;
+    font-family: arial;
+    text-align: left;
+    padding-left: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 15px;
+}
+
+.alignLeft {
+    color: black;
+    font-family: arial;
+    text-align: left;
+    font-size: 18px;
+}
+
+.button {
+    color: white;
+    background-color: #7854c2;
+    font-size: 20px;
+    border: 0;
+    width: 60%;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+input {
+    font-family: arial;
+    width: 15em;
+}
+
+.errors {
+    color: rgb(219, 0, 0);
+    font-family: arial;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 1em;
+    width: 40%;
+    border: 1px solid gainsboro;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    padding: 1.5em;
+    margin: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    margin-bottom: 30px; 
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #7854c2; 
+    text-decoration: none;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.title {
+    margin: auto;
+    width: 40%;
+    border: 1px solid gainsboro;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.index-box {
+    margin: auto;
+    width: 40%;
+    border: 1px solid gainsboro;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results-box {
+    margin: auto;
+    width: 40%;
+    border: 1px solid gainsboro;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-box {
+    margin: auto;
+    width: 40%;
+    border: 1px solid gainsboro;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    display: flex;
+    justify-content: center;
+}
+
