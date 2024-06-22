@@ -12,8 +12,7 @@ To get a local copy up and running, follow these steps:
 
 ### Installation Steps
 Clone the repository:
-   ```sh
-   git clone [https://github.com/kelly-ung/Grams-to-Atoms-Converter.git]
+`https://github.com/kelly-ung/Grams-to-Atoms-Converter.git`
 
 Run the following commands:
 1. pipenv shell
