@@ -10,7 +10,6 @@ To get a local copy up and running, follow these steps:
 - pip (Python package installer)
 - pipenv
 
-### Installation Steps
 Clone the repository:
 `https://github.com/kelly-ung/Grams-to-Atoms-Converter.git`
 
