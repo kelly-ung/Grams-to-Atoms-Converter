@@ -27,5 +27,9 @@ Run the following commands:
 
 The result will be displayed along with an explanation for the solution.
 
-![image](https://github.com/kelly-ung/Grams-to-Atoms-Converter/assets/160653037/9d9b7721-f9d5-42b0-a8fd-477341d11da1)
+### Screenshots
+![image](https://github.com/kelly-ung/Grams-to-Atoms-Converter/assets/160653037/f0ca4768-04e1-471f-a674-72c35d5c2e6a)
+![image](https://github.com/kelly-ung/Grams-to-Atoms-Converter/assets/160653037/f03a460d-ccf6-4141-b07c-2a6a2eb6496f)
+
+
 
